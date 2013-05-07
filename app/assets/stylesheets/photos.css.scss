@@ -1,0 +1,26 @@
+// Place all the styles related to the Photos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+ 
+.file-wrapper {
+    display:inline-block;
+    cursor:pointer;
+    position:relative;
+}
+.file-wrapper input {
+    position:absolute;
+    right:0;
+    top:0;
+    opacity:0;
+    /* IE 6/7/8 - use this conditionally */ filter:alpha(opacity=0);
+    cursor:pointer;
+}
+
+span.fileName {
+	margin-left: 8px;
+}
+
+li.asset {
+	float: left;
+}

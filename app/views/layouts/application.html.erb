@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bumpyride</title>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <meta charset='utf-8' content='width=device-width, initial-scale=1.0' name='viewport'>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <%= javascript_include_tag "application" %>
+  <script src="http://twitter.github.com/bootstrap/assets/js/bootstrap.js"></script>
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+<div class='navbar navbar-fixed-top'>
+  <div class='navbar-inner'>
+    <div class='container'>
+      <a class='btn btn-navbar' data-target='.nav-collapse' data-toggle='collapse' type='button'>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+      </a>
+      <a href="/" class="brand">BumpyRide</a>
+      <div class='nav-collapse collapse'>
+        <ul class='nav'>
+          <li>
+            <a href="/photos/new">Upload</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+<%= yield %>
+
+</div>
+
+</body>
+</html>

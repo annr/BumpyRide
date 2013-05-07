@@ -1,0 +1,1810 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'update', 'npm', '-g' ]
+info using npm@1.1.10
+info using node@v0.6.13
+verbose config file /Users/ann/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+WARN coffee-script@1.3.3 package.json: bugs['name'] should probably be bugs['url']
+verbose caching /usr/local/lib/node_modules/coffee-script/package.json
+verbose caching /usr/local/lib/node_modules/grunt/package.json
+verbose caching /usr/local/lib/node_modules/mocha/package.json
+verbose caching /usr/local/lib/node_modules/express/package.json
+verbose caching /usr/local/lib/node_modules/styledocco/package.json
+verbose caching /usr/local/lib/node_modules/now/package.json
+verbose caching /usr/local/lib/node_modules/npm/package.json
+verbose from cache /usr/local/lib/node_modules/coffee-script/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/package.json
+verbose from cache /usr/local/lib/node_modules/mocha/package.json
+verbose from cache /usr/local/lib/node_modules/express/package.json
+verbose from cache /usr/local/lib/node_modules/styledocco/package.json
+verbose from cache /usr/local/lib/node_modules/now/package.json
+verbose cache add [ 'npm', '*' ]
+silly cache add: name, spec, args [ 'npm', '*', [ 'npm', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'npm', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'npm', '', false ]
+verbose raw, before any munging npm
+verbose url resolving [ 'https://registry.npmjs.org/', './npm' ]
+verbose url resolved https://registry.npmjs.org/npm
+http GET https://registry.npmjs.org/npm
+verbose caching /usr/local/lib/node_modules/mocha/node_modules/debug/package.json
+verbose caching /usr/local/lib/node_modules/mocha/node_modules/commander/package.json
+verbose caching /usr/local/lib/node_modules/mocha/node_modules/diff/package.json
+verbose caching /usr/local/lib/node_modules/mocha/node_modules/jade/package.json
+verbose caching /usr/local/lib/node_modules/mocha/node_modules/growl/package.json
+verbose from cache /usr/local/lib/node_modules/mocha/node_modules/commander/package.json
+verbose from cache /usr/local/lib/node_modules/mocha/node_modules/growl/package.json
+verbose from cache /usr/local/lib/node_modules/mocha/node_modules/jade/package.json
+verbose from cache /usr/local/lib/node_modules/mocha/node_modules/diff/package.json
+verbose from cache /usr/local/lib/node_modules/mocha/node_modules/debug/package.json
+verbose caching /usr/local/lib/node_modules/express/node_modules/connect/package.json
+verbose caching /usr/local/lib/node_modules/express/node_modules/cookie/package.json
+verbose caching /usr/local/lib/node_modules/express/node_modules/commander/package.json
+verbose caching /usr/local/lib/node_modules/express/node_modules/crc/package.json
+verbose caching /usr/local/lib/node_modules/express/node_modules/debug/package.json
+verbose caching /usr/local/lib/node_modules/express/node_modules/fresh/package.json
+verbose caching /usr/local/lib/node_modules/express/node_modules/methods/package.json
+verbose caching /usr/local/lib/node_modules/express/node_modules/mkdirp/package.json
+verbose caching /usr/local/lib/node_modules/express/node_modules/range-parser/package.json
+verbose caching /usr/local/lib/node_modules/express/node_modules/send/package.json
+verbose from cache /usr/local/lib/node_modules/express/node_modules/connect/package.json
+verbose from cache /usr/local/lib/node_modules/express/node_modules/commander/package.json
+verbose from cache /usr/local/lib/node_modules/express/node_modules/range-parser/package.json
+verbose from cache /usr/local/lib/node_modules/express/node_modules/mkdirp/package.json
+verbose from cache /usr/local/lib/node_modules/express/node_modules/cookie/package.json
+verbose from cache /usr/local/lib/node_modules/express/node_modules/crc/package.json
+verbose from cache /usr/local/lib/node_modules/express/node_modules/fresh/package.json
+verbose from cache /usr/local/lib/node_modules/express/node_modules/methods/package.json
+verbose from cache /usr/local/lib/node_modules/express/node_modules/send/package.json
+verbose from cache /usr/local/lib/node_modules/express/node_modules/debug/package.json
+verbose caching /usr/local/lib/node_modules/styledocco/node_modules/findit/package.json
+verbose caching /usr/local/lib/node_modules/styledocco/node_modules/highlight.js/package.json
+verbose caching /usr/local/lib/node_modules/styledocco/node_modules/jade/package.json
+verbose caching /usr/local/lib/node_modules/styledocco/node_modules/marked/package.json
+verbose caching /usr/local/lib/node_modules/styledocco/node_modules/optimist/package.json
+verbose caching /usr/local/lib/node_modules/styledocco/node_modules/mkdirp/package.json
+verbose from cache /usr/local/lib/node_modules/styledocco/node_modules/findit/package.json
+verbose from cache /usr/local/lib/node_modules/styledocco/node_modules/highlight.js/package.json
+verbose from cache /usr/local/lib/node_modules/styledocco/node_modules/jade/package.json
+verbose from cache /usr/local/lib/node_modules/styledocco/node_modules/marked/package.json
+verbose from cache /usr/local/lib/node_modules/styledocco/node_modules/mkdirp/package.json
+verbose from cache /usr/local/lib/node_modules/styledocco/node_modules/optimist/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/async/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/colors/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/connect/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/dateformat/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/glob-whatev/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/gzip-js/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/jshint/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/hooker/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/nodeunit/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/nopt/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/prompt/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/semver/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/temporary/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/underscore.string/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/uglify-js/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/underscore/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/async/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/colors/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/dateformat/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/glob-whatev/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/hooker/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/jshint/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nopt/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/prompt/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/semver/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/uglify-js/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/underscore/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/underscore.string/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/temporary/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/gzip-js/package.json
+verbose caching /usr/local/lib/node_modules/now/node_modules/node-proxy/package.json
+verbose caching /usr/local/lib/node_modules/now/node_modules/socket.io/package.json
+verbose from cache /usr/local/lib/node_modules/now/node_modules/socket.io/package.json
+verbose from cache /usr/local/lib/node_modules/now/node_modules/node-proxy/package.json
+verbose caching /usr/local/lib/node_modules/express/node_modules/connect/node_modules/formidable/package.json
+verbose caching /usr/local/lib/node_modules/mocha/node_modules/jade/node_modules/mkdirp/package.json
+verbose from cache /usr/local/lib/node_modules/mocha/node_modules/jade/node_modules/mkdirp/package.json
+verbose caching /usr/local/lib/node_modules/express/node_modules/connect/node_modules/bytes/package.json
+verbose caching /usr/local/lib/node_modules/express/node_modules/connect/node_modules/qs/package.json
+verbose caching /usr/local/lib/node_modules/styledocco/node_modules/findit/node_modules/seq/package.json
+verbose from cache /usr/local/lib/node_modules/styledocco/node_modules/findit/node_modules/seq/package.json
+verbose caching /usr/local/lib/node_modules/express/node_modules/send/node_modules/mime/package.json
+verbose from cache /usr/local/lib/node_modules/express/node_modules/send/node_modules/mime/package.json
+verbose caching /usr/local/lib/node_modules/express/node_modules/connect/node_modules/pause/package.json
+verbose from cache /usr/local/lib/node_modules/express/node_modules/connect/node_modules/qs/package.json
+verbose from cache /usr/local/lib/node_modules/express/node_modules/connect/node_modules/formidable/package.json
+verbose from cache /usr/local/lib/node_modules/express/node_modules/connect/node_modules/bytes/package.json
+verbose from cache /usr/local/lib/node_modules/express/node_modules/connect/node_modules/pause/package.json
+verbose caching /usr/local/lib/node_modules/styledocco/node_modules/highlight.js/node_modules/commander/package.json
+verbose from cache /usr/local/lib/node_modules/styledocco/node_modules/highlight.js/node_modules/commander/package.json
+verbose caching /usr/local/lib/node_modules/styledocco/node_modules/optimist/node_modules/wordwrap/package.json
+verbose from cache /usr/local/lib/node_modules/styledocco/node_modules/optimist/node_modules/wordwrap/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/crc/package.json
+verbose caching /usr/local/lib/node_modules/styledocco/node_modules/jade/node_modules/commander/package.json
+verbose from cache /usr/local/lib/node_modules/styledocco/node_modules/jade/node_modules/commander/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/glob-whatev/node_modules/minimatch/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/glob-whatev/node_modules/minimatch/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/debug/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/bytes/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/cookie/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/formidable/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/send/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/argsparser/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/fresh/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/nopt/node_modules/abbrev/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nopt/node_modules/abbrev/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/minimatch/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/argsparser/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/minimatch/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/qs/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/qs/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/formidable/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/crc/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/cookie/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/bytes/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/send/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/fresh/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/debug/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap-producer/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/pkginfo/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/pkginfo/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/temporary/node_modules/package/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/temporary/node_modules/package/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/gzip-js/node_modules/crc32/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/gzip-js/node_modules/deflate-js/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/gzip-js/node_modules/crc32/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/gzip-js/node_modules/deflate-js/package.json
+verbose caching /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/redis/package.json
+verbose caching /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/policyfile/package.json
+verbose caching /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/package.json
+verbose from cache /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/package.json
+verbose from cache /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/policyfile/package.json
+verbose from cache /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/redis/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap-assert/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap-assert/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap-producer/package.json
+verbose caching /usr/local/lib/node_modules/styledocco/node_modules/findit/node_modules/seq/node_modules/chainsaw/package.json
+verbose caching /usr/local/lib/node_modules/styledocco/node_modules/findit/node_modules/seq/node_modules/hashish/package.json
+verbose from cache /usr/local/lib/node_modules/styledocco/node_modules/findit/node_modules/seq/node_modules/chainsaw/package.json
+verbose from cache /usr/local/lib/node_modules/styledocco/node_modules/findit/node_modules/seq/node_modules/hashish/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/send/node_modules/mime/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/eyes/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/send/node_modules/range-parser/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/send/node_modules/mime/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/connect/node_modules/send/node_modules/range-parser/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/loggly/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/stack-trace/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/eyes/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/loggly/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/stack-trace/package.json
+verbose caching /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/package.json
+verbose caching /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/package.json
+WARN xmlhttprequest@1.4.2 package.json: bugs['name'] should probably be bugs['url']
+verbose caching /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/xmlhttprequest/package.json
+verbose has bindings.gyp [ undefined,
+verbose has bindings.gyp   { file: '/usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/package.json',
+verbose has bindings.gyp     wscript: false,
+verbose has bindings.gyp     gypfile: true,
+verbose has bindings.gyp     serverjs: false,
+verbose has bindings.gyp     contributors: false } ]
+verbose caching /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/package.json
+verbose from cache /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/package.json
+verbose from cache /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/package.json
+verbose from cache /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/xmlhttprequest/package.json
+verbose from cache /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/jshint/node_modules/minimatch/node_modules/lru-cache/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/glob-whatev/node_modules/minimatch/node_modules/lru-cache/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/glob-whatev/node_modules/minimatch/node_modules/lru-cache/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap-producer/node_modules/inherits/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap-producer/node_modules/tap-results/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap-producer/node_modules/yamlish/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap-producer/node_modules/inherits/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap-producer/node_modules/tap-results/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/nodeunit/node_modules/tap-producer/node_modules/yamlish/package.json
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/redis/node_modules/hiredis/package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     gypfile: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/redis/node_modules/hiredis/package.json
+verbose from cache /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/redis/node_modules/hiredis/package.json
+verbose caching /usr/local/lib/node_modules/styledocco/node_modules/findit/node_modules/seq/node_modules/hashish/node_modules/traverse/package.json
+verbose from cache /usr/local/lib/node_modules/styledocco/node_modules/findit/node_modules/seq/node_modules/hashish/node_modules/traverse/package.json
+verbose caching /usr/local/lib/node_modules/styledocco/node_modules/findit/node_modules/seq/node_modules/chainsaw/node_modules/traverse/package.json
+verbose from cache /usr/local/lib/node_modules/styledocco/node_modules/findit/node_modules/seq/node_modules/chainsaw/node_modules/traverse/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/loggly/node_modules/request/package.json
+verbose caching /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/loggly/node_modules/timespan/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/loggly/node_modules/request/package.json
+verbose from cache /usr/local/lib/node_modules/grunt/node_modules/prompt/node_modules/winston/node_modules/loggly/node_modules/timespan/package.json
+verbose caching /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/commander/package.json
+verbose caching /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/options/package.json
+verbose caching /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/tinycolor/package.json
+verbose from cache /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/commander/package.json
+verbose from cache /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/tinycolor/package.json
+verbose from cache /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/options/package.json
+verbose caching /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/package.json
+verbose from cache /usr/local/lib/node_modules/now/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/package.json
+http 200 https://registry.npmjs.org/npm
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"16NFVONGOR6SNJMQEBETWNQX7"',
+silly get cb     date: 'Mon, 06 May 2013 18:17:36 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '511750' } ]
+silly name, range, hasData 2 [ 'npm', '', true ]
+silly versions [ 'npm',
+silly versions   [ '1.0.106',
+silly versions     '0.2.19',
+silly versions     '1.1.71',
+silly versions     '1.2.0',
+silly versions     '1.2.1',
+silly versions     '1.2.2',
+silly versions     '1.2.3',
+silly versions     '1.2.4',
+silly versions     '1.2.5',
+silly versions     '1.2.6',
+silly versions     '1.2.7',
+silly versions     '1.2.8',
+silly versions     '1.2.9',
+silly versions     '1.2.10',
+silly versions     '1.2.11',
+silly versions     '1.2.12',
+silly versions     '1.2.13',
+silly versions     '1.2.14',
+silly versions     '1.2.15',
+silly versions     '1.2.16',
+silly versions     '1.2.17',
+silly versions     '1.2.18',
+silly versions     '1.2.19' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.4.2',
+verbose bin dist   { shasum: '58be5403278acf2c955e0dfc778f1d3497ecc14f',
+verbose bin dist     tarball: 'http://registry.npmjs.org/npm/-/npm-1.2.19.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/npm/-/npm-1.2.19.tgz',
+verbose addRemoteTarball   '58be5403278acf2c955e0dfc778f1d3497ecc14f' ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611'
+verbose mkdir (expected) error ENOENT, stat '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006'
+verbose mkdir done: /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006 755
+verbose fetch to /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/tmp.tgz
+http GET https://registry.npmjs.org/npm/-/npm-1.2.19.tgz
+http 200 https://registry.npmjs.org/npm/-/npm-1.2.19.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 1638
+info shasum 58be5403278acf2c955e0dfc778f1d3497ecc14f
+info shasum /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package'
+verbose mkdir done: /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/package.json
+verbose loadDefaults npm@1.2.19
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/package.json
+verbose pack /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package
+verbose pack /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package /Users/ann/.npm/npm/1.2.19/package.tgz
+silly makeList /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/abbrev/package.json
+verbose loadDefaults abbrev@1.0.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/ansi/package.json
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/archy/package.json
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/block-stream/package.json
+verbose loadDefaults block-stream@0.0.6
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/child-process-close/package.json
+verbose loadDefaults child-process-close@0.1.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/chmodr/package.json
+verbose loadDefaults chmodr@0.1.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/chownr/package.json
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/cmd-shim/package.json
+verbose loadDefaults cmd-shim@1.1.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/editor/package.json
+verbose loadDefaults editor@0.0.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/fstream/package.json
+verbose loadDefaults fstream@0.1.22
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/fstream-npm/package.json
+verbose loadDefaults fstream-npm@0.1.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/glob/package.json
+verbose loadDefaults glob@3.2.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/graceful-fs/package.json
+verbose loadDefaults graceful-fs@1.2.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/inherits/package.json
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/ini/package.json
+verbose loadDefaults ini@1.1.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/init-package-json/package.json
+verbose loadDefaults init-package-json@0.0.8
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/lockfile/package.json
+verbose loadDefaults lockfile@0.3.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/minimatch/package.json
+verbose loadDefaults minimatch@0.2.12
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/mkdirp/package.json
+verbose loadDefaults mkdirp@0.3.5
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/node-gyp/package.json
+verbose loadDefaults node-gyp@0.9.5
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/nopt/package.json
+verbose loadDefaults nopt@2.1.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/npm-registry-client/package.json
+verbose loadDefaults npm-registry-client@0.2.22
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/npmconf/package.json
+verbose loadDefaults npmconf@0.0.24
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/npmlog/package.json
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/once/package.json
+verbose loadDefaults once@1.1.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/opener/package.json
+verbose loadDefaults opener@1.3.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/osenv/package.json
+verbose loadDefaults osenv@0.0.3
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/read/package.json
+verbose loadDefaults read@1.0.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/read-installed/package.json
+verbose loadDefaults read-installed@0.1.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/read-package-json/package.json
+verbose loadDefaults read-package-json@0.4.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/retry/package.json
+verbose loadDefaults retry@0.6.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/package.json
+verbose loadDefaults request@2.20.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/semver/package.json
+verbose loadDefaults semver@1.1.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/sha/package.json
+verbose loadDefaults sha@1.0.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/slide/package.json
+verbose loadDefaults slide@1.1.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/tar/package.json
+verbose loadDefaults tar@0.1.17
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/uid-number/package.json
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/which/package.json
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/lru-cache/package.json
+verbose loadDefaults lru-cache@2.3.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/rimraf/package.json
+verbose loadDefaults rimraf@2.1.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/bundlerecurs/package.json
+verbose loadDefaults bundletest@1.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/change-bin-1/package.json
+verbose loadDefaults npm-test-change-bin@1.2.3
+verbose npm-test-change-bin@1.2.3 linking default bins
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/change-bin-2/package.json
+verbose loadDefaults npm-test-change-bin@2.3.4
+verbose npm-test-change-bin@2.3.4 linking default bins
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/failer/package.json
+verbose loadDefaults npm-test-failer@9999.999.99
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/fast/package.json
+verbose loadDefaults fast@1.2.3
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/package-bar/package.json
+verbose loadDefaults package-bar@0.5.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/package-config/package.json
+verbose loadDefaults package-config@1.2.3
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/package-foo/package.json
+verbose loadDefaults package-foo@0.5.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/slow/package.json
+verbose loadDefaults slow@1.2.3
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/startstop/package.json
+verbose loadDefaults startstop@1.2.3
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-array-bin/package.json
+verbose loadDefaults npm-test-array-bin@1.2.5
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-blerg/package.json
+verbose loadDefaults npm-test-blerg@0.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-blerg3/package.json
+verbose loadDefaults npm-test-blerg3@0.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-bundled-git/package.json
+verbose loadDefaults npm-test-bundled-git@1.2.5
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-dir-bin/package.json
+verbose loadDefaults npm-test-dir-bin@1.2.5
+verbose npm-test-dir-bin@1.2.5 linking default bins
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-env-reader/package.json
+verbose loadDefaults npm-test-env-reader@1.2.3
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-files/package.json
+verbose loadDefaults npm-test-files@1.2.5
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-ignore/package.json
+verbose loadDefaults npm-test-ignore@1.2.5
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-ignore-nested-nm/package.json
+verbose loadDefaults npm-test-ignore-nested-nm@1.2.5
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-missing-bindir/package.json
+verbose loadDefaults npm-test-missing-bindir@0.0.0
+verbose npm-test-missing-bindir@0.0.0 linking default bins
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-optional-deps/package.json
+verbose loadDefaults npm-test-optional-deps@1.2.5
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-peer-deps/package.json
+verbose loadDefaults npm-test-peer-deps@0.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-platform/package.json
+verbose loadDefaults npm-test-platform@9.9.9-9
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-platform-all/package.json
+verbose loadDefaults npm-test-platform-all@9.9.9-9
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-private/package.json
+verbose loadDefaults npm-test-private@9.9.9-9
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-shrinkwrap/package.json
+verbose loadDefaults npm-test-shrinkwrap@0.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-test-package/package.json
+verbose loadDefaults npm-test-test-package@1.2.3-99-b
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-url-dep/package.json
+verbose loadDefaults npm-test-url-dep@1.2.3
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/tap/false_name/package.json
+verbose loadDefaults buffer-equal@0.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/tap/package-with-peer-dep/package.json
+verbose loadDefaults package-with-peer-dep@0.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/tap/peer-deps-invalid/package.json
+verbose loadDefaults peer-deps-invalid@0.0.0
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/archy',
+silly dir, dirLen   127 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/chownr',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/inherits',
+silly dir, dirLen   130 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/opener',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/uid-number',
+silly dir, dirLen   132 ]
+silly npm-test-change-bin@1.2.3.bin { foo: 'bin/foo' }
+silly npm-test-change-bin@2.3.4.bin { bar: 'bin/bar' }
+silly npm-test-dir-bin@1.2.5.bin { 'dir-bin': 'bin/dir-bin' }
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/abbrev',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/block-stream',
+silly dir, dirLen   134 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/child-process-close',
+silly dir, dirLen   141 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/chmodr',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/editor',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/npmlog',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/once',
+silly dir, dirLen   126 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/osenv',
+silly dir, dirLen   127 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/read-installed',
+silly dir, dirLen   136 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/semver',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/sha',
+silly dir, dirLen   125 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/slide',
+silly dir, dirLen   127 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/which',
+silly dir, dirLen   127 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/bundlerecurs',
+silly dir, dirLen   135 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/failer',
+silly dir, dirLen   129 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/fast',
+silly dir, dirLen   127 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/package-bar',
+silly dir, dirLen   134 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/package-config',
+silly dir, dirLen   137 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/package-foo',
+silly dir, dirLen   134 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/slow',
+silly dir, dirLen   127 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/startstop',
+silly dir, dirLen   132 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-blerg',
+silly dir, dirLen   137 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-blerg3',
+silly dir, dirLen   138 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-bundled-git',
+silly dir, dirLen   143 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-env-reader',
+silly dir, dirLen   142 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-optional-deps',
+silly dir, dirLen   145 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-peer-deps',
+silly dir, dirLen   141 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-platform',
+silly dir, dirLen   140 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-platform-all',
+silly dir, dirLen   144 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-private',
+silly dir, dirLen   139 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-shrinkwrap',
+silly dir, dirLen   142 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-test-package',
+silly dir, dirLen   144 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-url-dep',
+silly dir, dirLen   139 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/tap/false_name',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/tap/package-with-peer-dep',
+silly dir, dirLen   139 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/tap/peer-deps-invalid',
+silly dir, dirLen   135 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-missing-bindir',
+silly dir, dirLen   146 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/rimraf',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/cmd-shim',
+silly dir, dirLen   130 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/fstream',
+silly dir, dirLen   129 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/glob',
+silly dir, dirLen   126 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/graceful-fs',
+silly dir, dirLen   133 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/ini',
+silly dir, dirLen   125 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/lockfile',
+silly dir, dirLen   130 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/mkdirp',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/nopt',
+silly dir, dirLen   126 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/tar',
+silly dir, dirLen   125 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-array-bin',
+silly dir, dirLen   141 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/lru-cache',
+silly dir, dirLen   131 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/ansi',
+silly dir, dirLen   126 ]
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/init-package-json/node_modules/promzard/package.json
+verbose loadDefaults promzard@0.2.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/minimatch/node_modules/sigmund/package.json
+verbose loadDefaults sigmund@1.0.0
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/retry',
+silly dir, dirLen   127 ]
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/aws-sign/package.json
+verbose loadDefaults aws-sign@0.3.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/forever-agent/package.json
+verbose loadDefaults forever-agent@0.3.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/cookie-jar/package.json
+verbose loadDefaults cookie-jar@0.3.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/hawk/package.json
+verbose loadDefaults hawk@0.10.2
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/form-data/package.json
+verbose loadDefaults form-data@0.0.8
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/http-signature/package.json
+verbose loadDefaults http-signature@0.9.11
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/json-stringify-safe/package.json
+verbose loadDefaults json-stringify-safe@3.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/mime/package.json
+verbose loadDefaults mime@1.2.9
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/node-uuid/package.json
+verbose loadDefaults node-uuid@1.4.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/oauth-sign/package.json
+verbose loadDefaults oauth-sign@0.3.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/qs/package.json
+verbose loadDefaults qs@0.5.6
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/tunnel-agent/package.json
+verbose loadDefaults tunnel-agent@0.3.0
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/change-bin-1',
+silly dir, dirLen   135 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/disabled/change-bin-2',
+silly dir, dirLen   135 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-dir-bin',
+silly dir, dirLen   139 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-ignore',
+silly dir, dirLen   138 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-files',
+silly dir, dirLen   137 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/test/packages/npm-test-ignore-nested-nm',
+silly dir, dirLen   148 ]
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/read-package-json/node_modules/normalize-package-data/package.json
+verbose loadDefaults normalize-package-data@0.1.2
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/fstream-npm/node_modules/fstream-ignore/package.json
+verbose loadDefaults fstream-ignore@0.0.6
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/npm-registry-client/node_modules/couch-login/package.json
+verbose loadDefaults couch-login@0.1.16
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/npmconf/node_modules/config-chain/package.json
+verbose loadDefaults config-chain@1.1.7
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/read/node_modules/mute-stream/package.json
+verbose loadDefaults mute-stream@0.0.3
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/aws-sign',
+silly dir, dirLen   151 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/forever-agent',
+silly dir, dirLen   156 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/json-stringify-safe',
+silly dir, dirLen   162 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/oauth-sign',
+silly dir, dirLen   153 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/tunnel-agent',
+silly dir, dirLen   155 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/minimatch/node_modules/sigmund',
+silly dir, dirLen   152 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/minimatch',
+silly dir, dirLen   131 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/cookie-jar',
+silly dir, dirLen   153 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/mime',
+silly dir, dirLen   147 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/read/node_modules/mute-stream',
+silly dir, dirLen   151 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/read',
+silly dir, dirLen   126 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/node-uuid',
+silly dir, dirLen   152 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/qs',
+silly dir, dirLen   145 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/fstream-npm/node_modules/fstream-ignore',
+silly dir, dirLen   161 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/fstream-npm',
+silly dir, dirLen   133 ]
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/init-package-json/node_modules/promzard/example/npm-init/package.json
+verbose loadDefaults npm-init@0.0.0
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/npm-registry-client/node_modules/couch-login',
+silly dir, dirLen   166 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/npm-registry-client',
+silly dir, dirLen   141 ]
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/hawk/node_modules/boom/package.json
+verbose loadDefaults boom@0.3.8
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+verbose loadDefaults cryptiles@0.1.3
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+verbose loadDefaults hoek@0.7.6
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+verbose loadDefaults sntp@0.1.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+verbose loadDefaults combined-stream@0.0.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/http-signature/node_modules/asn1/package.json
+verbose loadDefaults asn1@0.1.11
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/http-signature/node_modules/assert-plus/package.json
+verbose loadDefaults assert-plus@0.1.2
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/http-signature/node_modules/ctype/package.json
+verbose loadDefaults ctype@0.5.2
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/form-data/node_modules/async/package.json
+verbose loadDefaults async@0.2.7
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/github-url-from-git/package.json
+verbose loadDefaults github-url-from-git@1.1.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/npmconf/node_modules/config-chain/node_modules/proto-list/package.json
+verbose loadDefaults proto-list@1.2.2
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/init-package-json/node_modules/promzard/example/npm-init',
+silly dir, dirLen   178 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/init-package-json/node_modules/promzard',
+silly dir, dirLen   161 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/init-package-json',
+silly dir, dirLen   139 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/http-signature/node_modules/assert-plus',
+silly dir, dirLen   182 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/node-gyp',
+silly dir, dirLen   130 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/form-data/node_modules/async',
+silly dir, dirLen   171 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/github-url-from-git',
+silly dir, dirLen   208 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/read-package-json/node_modules/normalize-package-data',
+silly dir, dirLen   175 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/read-package-json',
+silly dir, dirLen   139 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/npmconf/node_modules/config-chain/node_modules/proto-list',
+silly dir, dirLen   179 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/npmconf/node_modules/config-chain',
+silly dir, dirLen   155 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/npmconf',
+silly dir, dirLen   129 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/hawk/node_modules/boom',
+silly dir, dirLen   165 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/hawk/node_modules/cryptiles',
+silly dir, dirLen   170 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/hawk/node_modules/sntp',
+silly dir, dirLen   165 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/hawk/node_modules/hoek',
+silly dir, dirLen   165 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/hawk',
+silly dir, dirLen   147 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/http-signature/node_modules/asn1',
+silly dir, dirLen   175 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/http-signature/node_modules/ctype',
+silly dir, dirLen   176 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/http-signature',
+silly dir, dirLen   157 ]
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+verbose loadDefaults delayed-stream@0.0.5
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream',
+silly dir, dirLen   209 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/form-data/node_modules/combined-stream',
+silly dir, dirLen   181 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request/node_modules/form-data',
+silly dir, dirLen   152 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package/node_modules/request',
+silly dir, dirLen   129 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package',
+silly dir, dirLen   108 ]
+verbose tarball /Users/ann/.npm/npm/1.2.19/package.tgz
+verbose parent /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864257611-0.7103863498196006/package
+verbose mkdir (expected) error ENOENT, stat '/Users/ann/.npm/npm/1.2.19/package'
+verbose mkdir done: /Users/ann/.npm/npm/1.2.19/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/ann/.npm/npm/1.2.19/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/ann/.npm/npm/1.2.19/package
+verbose caching /Users/ann/.npm/npm/1.2.19/package/package.json
+verbose loadDefaults npm@1.2.19
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 3968
+info shasum e353c1546c269fa524f02eab1186724343a4b7ab
+info shasum /Users/ann/.npm/npm/1.2.19/package.tgz
+verbose from cache /Users/ann/.npm/npm/1.2.19/package/package.json
+verbose chmod /Users/ann/.npm/npm/1.2.19/package.tgz 644
+verbose chown [ '/Users/ann/.npm/npm/1.2.19/package.tgz', 501, 20 ]
+info outdated updating [ [ '/usr/local/lib', 'npm', '1.1.10', '1.2.19' ] ]
+verbose install(where, what) [ '/usr/local/lib', [ 'npm@1.2.19' ] ]
+verbose cache add [ 'npm@1.2.19', null ]
+silly cache add: name, spec, args [ undefined, 'npm@1.2.19', [ 'npm@1.2.19', null ] ]
+verbose parsed url { pathname: 'npm@1.2.19',
+verbose parsed url   path: 'npm@1.2.19',
+verbose parsed url   href: 'npm@1.2.19' }
+silly cache add: name, spec, args [ 'npm', '1.2.19', [ 'npm', '1.2.19' ] ]
+verbose parsed url { pathname: '1.2.19', path: '1.2.19', href: '1.2.19' }
+verbose addNamed [ 'npm', '1.2.19' ]
+verbose addNamed [ '1.2.19', '1.2.19' ]
+verbose raw, before any munging npm/1.2.19
+verbose url resolving [ 'https://registry.npmjs.org/', './npm/1.2.19' ]
+verbose url resolved https://registry.npmjs.org/npm/1.2.19
+http GET https://registry.npmjs.org/npm/1.2.19
+http 200 https://registry.npmjs.org/npm/1.2.19
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.3.0 (Erlang OTP/R15B03)',
+silly get cb     etag: '"16NFVONGOR6SNJMQEBETWNQX7"',
+silly get cb     date: 'Mon, 06 May 2013 18:17:54 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '23206' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.24-darwin-x64-11.4.2',
+verbose bin dist   { shasum: '58be5403278acf2c955e0dfc778f1d3497ecc14f',
+verbose bin dist     tarball: 'http://registry.npmjs.org/npm/-/npm-1.2.19.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/npm/-/npm-1.2.19.tgz',
+verbose addRemoteTarball   '58be5403278acf2c955e0dfc778f1d3497ecc14f' ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014'
+verbose mkdir done: /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014 755
+verbose fetch to /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/tmp.tgz
+http GET https://registry.npmjs.org/npm/-/npm-1.2.19.tgz
+http 200 https://registry.npmjs.org/npm/-/npm-1.2.19.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 1638
+info shasum 58be5403278acf2c955e0dfc778f1d3497ecc14f
+info shasum /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package'
+verbose mkdir done: /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/package.json
+verbose loadDefaults npm@1.2.19
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/package.json
+verbose pack /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package
+verbose pack /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package /Users/ann/.npm/npm/1.2.19/package.tgz
+silly makeList /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/abbrev/package.json
+verbose loadDefaults abbrev@1.0.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/archy/package.json
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/block-stream/package.json
+verbose loadDefaults block-stream@0.0.6
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/child-process-close/package.json
+verbose loadDefaults child-process-close@0.1.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/chmodr/package.json
+verbose loadDefaults chmodr@0.1.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/chownr/package.json
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/cmd-shim/package.json
+verbose loadDefaults cmd-shim@1.1.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/editor/package.json
+verbose loadDefaults editor@0.0.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/ansi/package.json
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/fstream/package.json
+verbose loadDefaults fstream@0.1.22
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/fstream-npm/package.json
+verbose loadDefaults fstream-npm@0.1.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/glob/package.json
+verbose loadDefaults glob@3.2.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/graceful-fs/package.json
+verbose loadDefaults graceful-fs@1.2.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/inherits/package.json
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/ini/package.json
+verbose loadDefaults ini@1.1.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/init-package-json/package.json
+verbose loadDefaults init-package-json@0.0.8
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/lockfile/package.json
+verbose loadDefaults lockfile@0.3.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/minimatch/package.json
+verbose loadDefaults minimatch@0.2.12
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/mkdirp/package.json
+verbose loadDefaults mkdirp@0.3.5
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/node-gyp/package.json
+verbose loadDefaults node-gyp@0.9.5
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/nopt/package.json
+verbose loadDefaults nopt@2.1.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/npm-registry-client/package.json
+verbose loadDefaults npm-registry-client@0.2.22
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/npmconf/package.json
+verbose loadDefaults npmconf@0.0.24
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/npmlog/package.json
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/once/package.json
+verbose loadDefaults once@1.1.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/opener/package.json
+verbose loadDefaults opener@1.3.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/osenv/package.json
+verbose loadDefaults osenv@0.0.3
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/read/package.json
+verbose loadDefaults read@1.0.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/read-installed/package.json
+verbose loadDefaults read-installed@0.1.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/read-package-json/package.json
+verbose loadDefaults read-package-json@0.4.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/package.json
+verbose loadDefaults request@2.20.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/retry/package.json
+verbose loadDefaults retry@0.6.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/semver/package.json
+verbose loadDefaults semver@1.1.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/sha/package.json
+verbose loadDefaults sha@1.0.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/slide/package.json
+verbose loadDefaults slide@1.1.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/tar/package.json
+verbose loadDefaults tar@0.1.17
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/uid-number/package.json
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/which/package.json
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/lru-cache/package.json
+verbose loadDefaults lru-cache@2.3.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/rimraf/package.json
+verbose loadDefaults rimraf@2.1.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/bundlerecurs/package.json
+verbose loadDefaults bundletest@1.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/change-bin-1/package.json
+verbose loadDefaults npm-test-change-bin@1.2.3
+verbose npm-test-change-bin@1.2.3 linking default bins
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/change-bin-2/package.json
+verbose loadDefaults npm-test-change-bin@2.3.4
+verbose npm-test-change-bin@2.3.4 linking default bins
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/failer/package.json
+verbose loadDefaults npm-test-failer@9999.999.99
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/fast/package.json
+verbose loadDefaults fast@1.2.3
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/package-bar/package.json
+verbose loadDefaults package-bar@0.5.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/package-config/package.json
+verbose loadDefaults package-config@1.2.3
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/package-foo/package.json
+verbose loadDefaults package-foo@0.5.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/slow/package.json
+verbose loadDefaults slow@1.2.3
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/startstop/package.json
+verbose loadDefaults startstop@1.2.3
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-array-bin/package.json
+verbose loadDefaults npm-test-array-bin@1.2.5
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-blerg/package.json
+verbose loadDefaults npm-test-blerg@0.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-blerg3/package.json
+verbose loadDefaults npm-test-blerg3@0.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-bundled-git/package.json
+verbose loadDefaults npm-test-bundled-git@1.2.5
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-dir-bin/package.json
+verbose loadDefaults npm-test-dir-bin@1.2.5
+verbose npm-test-dir-bin@1.2.5 linking default bins
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-env-reader/package.json
+verbose loadDefaults npm-test-env-reader@1.2.3
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-files/package.json
+verbose loadDefaults npm-test-files@1.2.5
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-ignore/package.json
+verbose loadDefaults npm-test-ignore@1.2.5
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-ignore-nested-nm/package.json
+verbose loadDefaults npm-test-ignore-nested-nm@1.2.5
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-missing-bindir/package.json
+verbose loadDefaults npm-test-missing-bindir@0.0.0
+verbose npm-test-missing-bindir@0.0.0 linking default bins
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-optional-deps/package.json
+verbose loadDefaults npm-test-optional-deps@1.2.5
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-peer-deps/package.json
+verbose loadDefaults npm-test-peer-deps@0.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-platform/package.json
+verbose loadDefaults npm-test-platform@9.9.9-9
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-platform-all/package.json
+verbose loadDefaults npm-test-platform-all@9.9.9-9
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-private/package.json
+verbose loadDefaults npm-test-private@9.9.9-9
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-shrinkwrap/package.json
+verbose loadDefaults npm-test-shrinkwrap@0.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-test-package/package.json
+verbose loadDefaults npm-test-test-package@1.2.3-99-b
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-url-dep/package.json
+verbose loadDefaults npm-test-url-dep@1.2.3
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/tap/false_name/package.json
+verbose loadDefaults buffer-equal@0.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/tap/package-with-peer-dep/package.json
+verbose loadDefaults package-with-peer-dep@0.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/tap/peer-deps-invalid/package.json
+verbose loadDefaults peer-deps-invalid@0.0.0
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/archy',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/chownr',
+silly dir, dirLen   129 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/inherits',
+silly dir, dirLen   131 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/opener',
+silly dir, dirLen   129 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/uid-number',
+silly dir, dirLen   133 ]
+silly npm-test-change-bin@1.2.3.bin { foo: 'bin/foo' }
+silly npm-test-change-bin@2.3.4.bin { bar: 'bin/bar' }
+silly npm-test-dir-bin@1.2.5.bin { 'dir-bin': 'bin/dir-bin' }
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/abbrev',
+silly dir, dirLen   129 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/block-stream',
+silly dir, dirLen   135 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/child-process-close',
+silly dir, dirLen   142 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/chmodr',
+silly dir, dirLen   129 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/editor',
+silly dir, dirLen   129 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/npmlog',
+silly dir, dirLen   129 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/once',
+silly dir, dirLen   127 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/osenv',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/read-installed',
+silly dir, dirLen   137 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/semver',
+silly dir, dirLen   129 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/sha',
+silly dir, dirLen   126 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/slide',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/which',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/bundlerecurs',
+silly dir, dirLen   136 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/failer',
+silly dir, dirLen   130 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/fast',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/package-bar',
+silly dir, dirLen   135 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/package-config',
+silly dir, dirLen   138 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/package-foo',
+silly dir, dirLen   135 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/slow',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/startstop',
+silly dir, dirLen   133 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-blerg',
+silly dir, dirLen   138 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-blerg3',
+silly dir, dirLen   139 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-bundled-git',
+silly dir, dirLen   144 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-env-reader',
+silly dir, dirLen   143 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-optional-deps',
+silly dir, dirLen   146 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-peer-deps',
+silly dir, dirLen   142 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-platform',
+silly dir, dirLen   141 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-platform-all',
+silly dir, dirLen   145 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-private',
+silly dir, dirLen   140 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-shrinkwrap',
+silly dir, dirLen   143 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-test-package',
+silly dir, dirLen   145 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-url-dep',
+silly dir, dirLen   140 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/tap/false_name',
+silly dir, dirLen   129 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/tap/package-with-peer-dep',
+silly dir, dirLen   140 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/tap/peer-deps-invalid',
+silly dir, dirLen   136 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-missing-bindir',
+silly dir, dirLen   147 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/rimraf',
+silly dir, dirLen   129 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/cmd-shim',
+silly dir, dirLen   131 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/fstream',
+silly dir, dirLen   130 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/glob',
+silly dir, dirLen   127 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/graceful-fs',
+silly dir, dirLen   134 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/ini',
+silly dir, dirLen   126 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/lockfile',
+silly dir, dirLen   131 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/mkdirp',
+silly dir, dirLen   129 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/nopt',
+silly dir, dirLen   127 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/tar',
+silly dir, dirLen   126 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-array-bin',
+silly dir, dirLen   142 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/lru-cache',
+silly dir, dirLen   132 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/ansi',
+silly dir, dirLen   127 ]
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/init-package-json/node_modules/promzard/package.json
+verbose loadDefaults promzard@0.2.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/minimatch/node_modules/sigmund/package.json
+verbose loadDefaults sigmund@1.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/aws-sign/package.json
+verbose loadDefaults aws-sign@0.3.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/cookie-jar/package.json
+verbose loadDefaults cookie-jar@0.3.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/forever-agent/package.json
+verbose loadDefaults forever-agent@0.3.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/form-data/package.json
+verbose loadDefaults form-data@0.0.8
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/hawk/package.json
+verbose loadDefaults hawk@0.10.2
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/http-signature/package.json
+verbose loadDefaults http-signature@0.9.11
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/json-stringify-safe/package.json
+verbose loadDefaults json-stringify-safe@3.0.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/mime/package.json
+verbose loadDefaults mime@1.2.9
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/node-uuid/package.json
+verbose loadDefaults node-uuid@1.4.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/oauth-sign/package.json
+verbose loadDefaults oauth-sign@0.3.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/tunnel-agent/package.json
+verbose loadDefaults tunnel-agent@0.3.0
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/qs/package.json
+verbose loadDefaults qs@0.5.6
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/retry',
+silly dir, dirLen   128 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/change-bin-1',
+silly dir, dirLen   136 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/disabled/change-bin-2',
+silly dir, dirLen   136 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-dir-bin',
+silly dir, dirLen   140 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-files',
+silly dir, dirLen   138 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-ignore',
+silly dir, dirLen   139 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/test/packages/npm-test-ignore-nested-nm',
+silly dir, dirLen   149 ]
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/read-package-json/node_modules/normalize-package-data/package.json
+verbose loadDefaults normalize-package-data@0.1.2
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/fstream-npm/node_modules/fstream-ignore/package.json
+verbose loadDefaults fstream-ignore@0.0.6
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/npm-registry-client/node_modules/couch-login/package.json
+verbose loadDefaults couch-login@0.1.16
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/npmconf/node_modules/config-chain/package.json
+verbose loadDefaults config-chain@1.1.7
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/read/node_modules/mute-stream/package.json
+verbose loadDefaults mute-stream@0.0.3
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/aws-sign',
+silly dir, dirLen   152 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/forever-agent',
+silly dir, dirLen   157 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/json-stringify-safe',
+silly dir, dirLen   163 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/oauth-sign',
+silly dir, dirLen   154 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/tunnel-agent',
+silly dir, dirLen   156 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/minimatch/node_modules/sigmund',
+silly dir, dirLen   153 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/minimatch',
+silly dir, dirLen   132 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/cookie-jar',
+silly dir, dirLen   154 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/mime',
+silly dir, dirLen   148 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/read/node_modules/mute-stream',
+silly dir, dirLen   152 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/read',
+silly dir, dirLen   127 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/node-uuid',
+silly dir, dirLen   153 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/qs',
+silly dir, dirLen   146 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/fstream-npm/node_modules/fstream-ignore',
+silly dir, dirLen   162 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/fstream-npm',
+silly dir, dirLen   134 ]
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/init-package-json/node_modules/promzard/example/npm-init/package.json
+verbose loadDefaults npm-init@0.0.0
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/npm-registry-client/node_modules/couch-login',
+silly dir, dirLen   167 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/npm-registry-client',
+silly dir, dirLen   142 ]
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json
+verbose loadDefaults combined-stream@0.0.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/hawk/node_modules/cryptiles/package.json
+verbose loadDefaults cryptiles@0.1.3
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/hawk/node_modules/boom/package.json
+verbose loadDefaults boom@0.3.8
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/hawk/node_modules/hoek/package.json
+verbose loadDefaults hoek@0.7.6
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/hawk/node_modules/sntp/package.json
+verbose loadDefaults sntp@0.1.4
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/http-signature/node_modules/asn1/package.json
+verbose loadDefaults asn1@0.1.11
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/http-signature/node_modules/assert-plus/package.json
+verbose loadDefaults assert-plus@0.1.2
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/http-signature/node_modules/ctype/package.json
+verbose loadDefaults ctype@0.5.2
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/form-data/node_modules/async/package.json
+verbose loadDefaults async@0.2.7
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/github-url-from-git/package.json
+verbose loadDefaults github-url-from-git@1.1.1
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/npmconf/node_modules/config-chain/node_modules/proto-list/package.json
+verbose loadDefaults proto-list@1.2.2
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/init-package-json/node_modules/promzard/example/npm-init',
+silly dir, dirLen   179 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/init-package-json/node_modules/promzard',
+silly dir, dirLen   162 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/init-package-json',
+silly dir, dirLen   140 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/http-signature/node_modules/assert-plus',
+silly dir, dirLen   183 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/node-gyp',
+silly dir, dirLen   131 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/form-data/node_modules/async',
+silly dir, dirLen   172 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/read-package-json/node_modules/normalize-package-data/node_modules/github-url-from-git',
+silly dir, dirLen   209 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/read-package-json/node_modules/normalize-package-data',
+silly dir, dirLen   176 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/read-package-json',
+silly dir, dirLen   140 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/npmconf/node_modules/config-chain/node_modules/proto-list',
+silly dir, dirLen   180 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/npmconf/node_modules/config-chain',
+silly dir, dirLen   156 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/npmconf',
+silly dir, dirLen   130 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/hawk/node_modules/cryptiles',
+silly dir, dirLen   171 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/hawk/node_modules/boom',
+silly dir, dirLen   166 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/hawk/node_modules/sntp',
+silly dir, dirLen   166 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/hawk/node_modules/hoek',
+silly dir, dirLen   166 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/hawk',
+silly dir, dirLen   148 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/http-signature/node_modules/asn1',
+silly dir, dirLen   176 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/http-signature/node_modules/ctype',
+silly dir, dirLen   177 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/http-signature',
+silly dir, dirLen   158 ]
+verbose caching /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+verbose loadDefaults delayed-stream@0.0.5
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream',
+silly dir, dirLen   210 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/form-data/node_modules/combined-stream',
+silly dir, dirLen   182 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request/node_modules/form-data',
+silly dir, dirLen   153 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package/node_modules/request',
+silly dir, dirLen   130 ]
+silly dir, dirLen [ '/var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package',
+silly dir, dirLen   109 ]
+verbose tarball /Users/ann/.npm/npm/1.2.19/package.tgz
+verbose parent /var/folders/gv/nm8rtz993nj147p4vs0wb9rm0000gn/T/npm-1367864257611/1367864274200-0.37647433928214014/package
+verbose mkdir (expected) error ENOENT, stat '/Users/ann/.npm/npm/1.2.19/package'
+verbose mkdir done: /Users/ann/.npm/npm/1.2.19/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/ann/.npm/npm/1.2.19/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/ann/.npm/npm/1.2.19/package
+verbose from cache /Users/ann/.npm/npm/1.2.19/package/package.json
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 4020
+info shasum a8ba185df58f38e5721f241083782303683e0efa
+info shasum /Users/ann/.npm/npm/1.2.19/package.tgz
+verbose from cache /Users/ann/.npm/npm/1.2.19/package/package.json
+verbose chmod /Users/ann/.npm/npm/1.2.19/package.tgz 644
+verbose chown [ '/Users/ann/.npm/npm/1.2.19/package.tgz', 501, 20 ]
+silly resolved [ { version: '1.2.19',
+silly resolved     name: 'npm',
+silly resolved     publishConfig: { 'proprietary-attribs': false },
+silly resolved     description: 'A package manager for node',
+silly resolved     keywords: [ 'package manager', 'modules', 'install', 'package.json' ],
+silly resolved     preferGlobal: true,
+silly resolved     config: { publishtest: false },
+silly resolved     homepage: 'https://npmjs.org/doc/',
+silly resolved     author: 
+silly resolved      { name: 'Isaac Z. Schlueter',
+silly resolved        email: 'i@izs.me',
+silly resolved        url: 'http://blog.izs.me' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/npm.git' },
+silly resolved     bugs: 
+silly resolved      { email: 'npm-@googlegroups.com',
+silly resolved        url: 'http://github.com/isaacs/npm/issues' },
+silly resolved     directories: { doc: './doc', man: './man', lib: './lib', bin: './bin' },
+silly resolved     main: './lib/npm.js',
+silly resolved     bin: { npm: './bin/npm-cli.js' },
+silly resolved     dependencies: 
+silly resolved      { semver: '~1.1.2',
+silly resolved        ini: '~1.1.0',
+silly resolved        slide: '~1.1.4',
+silly resolved        abbrev: '~1.0.4',
+silly resolved        'graceful-fs': '~1.2.0',
+silly resolved        minimatch: '~0.2.12',
+silly resolved        nopt: '~2.1.1',
+silly resolved        rimraf: '2',
+silly resolved        request: '~2.20.0',
+silly resolved        which: '1',
+silly resolved        tar: '~0.1.17',
+silly resolved        fstream: '~0.1.22',
+silly resolved        'block-stream': '*',
+silly resolved        inherits: '1',
+silly resolved        mkdirp: '~0.3.3',
+silly resolved        read: '~1.0.4',
+silly resolved        'lru-cache': '~2.3.0',
+silly resolved        'node-gyp': '~0.9.5',
+silly resolved        'fstream-npm': '~0.1.3',
+silly resolved        'uid-number': '0',
+silly resolved        archy: '0',
+silly resolved        chownr: '0',
+silly resolved        npmlog: '0',
+silly resolved        ansi: '~0.1.2',
+silly resolved        'npm-registry-client': '~0.2.22',
+silly resolved        'read-package-json': '~0.4.1',
+silly resolved        'read-installed': '0',
+silly resolved        glob: '~3.2.1',
+silly resolved        'init-package-json': '0.0.8',
+silly resolved        osenv: '0',
+silly resolved        lockfile: '~0.3.1',
+silly resolved        retry: '~0.6.0',
+silly resolved        once: '~1.1.1',
+silly resolved        npmconf: '0',
+silly resolved        opener: '~1.3.0',
+silly resolved        chmodr: '~0.1.0',
+silly resolved        'cmd-shim': '~1.1.0',
+silly resolved        sha: '~1.0.1',
+silly resolved        editor: '0.0.4',
+silly resolved        'child-process-close': '~0.1.1' },
+silly resolved     bundleDependencies: 
+silly resolved      [ 'semver',
+silly resolved        'ini',
+silly resolved        'slide',
+silly resolved        'abbrev',
+silly resolved        'graceful-fs',
+silly resolved        'minimatch',
+silly resolved        'nopt',
+silly resolved        'rimraf',
+silly resolved        'request',
+silly resolved        'which',
+silly resolved        'tar',
+silly resolved        'fstream',
+silly resolved        'block-stream',
+silly resolved        'inherits',
+silly resolved        'mkdirp',
+silly resolved        'read',
+silly resolved        'lru-cache',
+silly resolved        'node-gyp',
+silly resolved        'fstream-npm',
+silly resolved        'uid-number',
+silly resolved        'archy',
+silly resolved        'chownr',
+silly resolved        'npmlog',
+silly resolved        'ansi',
+silly resolved        'npm-registry-client',
+silly resolved        'read-package-json',
+silly resolved        'read-installed',
+silly resolved        'glob',
+silly resolved        'init-package-json',
+silly resolved        'osenv',
+silly resolved        'lockfile',
+silly resolved        'retry',
+silly resolved        'once',
+silly resolved        'npmconf',
+silly resolved        'opener',
+silly resolved        'chmodr',
+silly resolved        'cmd-shim',
+silly resolved        'sha',
+silly resolved        'child-process-close',
+silly resolved        'editor' ],
+silly resolved     devDependencies: { ronn: '~0.3.6', tap: '~0.4.0' },
+silly resolved     engines: { node: '>=0.6', npm: '1' },
+silly resolved     scripts: 
+silly resolved      { test: 'node ./test/run.js && tap test/tap/*.js',
+silly resolved        tap: 'tap test/tap/*.js',
+silly resolved        prepublish: 'node bin/npm-cli.js prune ; rm -rf test/*/*/node_modules ; make -j4 doc',
+silly resolved        dumpconf: 'env | grep npm | sort | uniq',
+silly resolved        echo: 'node bin/npm-cli.js' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT +no-false-attribs',
+silly resolved          url: 'https://github.com/isaacs/npm/raw/master/LICENSE' } ],
+silly resolved     _id: 'npm@1.2.19',
+silly resolved     contributors: 
+silly resolved      [ { name: 'Isaac Z. Schlueter',
+silly resolved          email: 'i@izs.me',
+silly resolved          url: 'http://blog.izs.me/' },
+silly resolved        { name: 'Steve Steiner',
+silly resolved          email: 'ssteinerX@gmail.com',
+silly resolved          url: 'http://websaucesoftware.com/blog/' },
+silly resolved        { name: 'Mikeal Rogers',
+silly resolved          email: 'mikeal.rogers@gmail.com',
+silly resolved          url: 'http://www.mikealrogers.com/' },
+silly resolved        { name: 'Aaron Blohowiak',
+silly resolved          email: 'aaron.blohowiak@gmail.com',
+silly resolved          url: 'http://aaronblohowiak.com/' },
+silly resolved        { name: 'Martyn Smith',
+silly resolved          email: 'martyn@dollyfish.net.nz',
+silly resolved          url: 'http://dollyfish.net.nz/' },
+silly resolved        { name: 'Mathias Pettersson',
+silly resolved          email: 'mape@mape.me',
+silly resolved          url: 'http://mape.me/' },
+silly resolved        { name: 'Brian Hammond',
+silly resolved          email: 'brian@fictorial.com',
+silly resolved          url: 'http://fictorial.com/' },
+silly resolved        { name: 'Charlie Robbins',
+silly resolved          email: 'charlie.robbins@gmail.com',
+silly resolved          url: 'http://www.charlierobbins.com/' },
+silly resolved        { name: 'Francisco Treacy',
+silly resolved          email: 'francisco.treacy@gmail.com',
+silly resolved          url: 'http://franciscotreacy.com/' },
+silly resolved        { name: 'Cliffano Subagio',
+silly resolved          email: 'cliffano@gmail.com',
+silly resolved          url: 'http://blog.cliffano.com/' },
+silly resolved        { name: 'Christian Eager',
+silly resolved          email: 'christian.eager@nokia.com',
+silly resolved          url: 'http://perpenduum.com' },
+silly resolved        { name: 'Dav Glass',
+silly resolved          email: 'davglass@gmail.com',
+silly resolved          url: 'http://blog.davglass.com' },
+silly resolved        { name: 'Alex K. Wolfe', email: 'alexkwolfe@gmail.com' },
+silly resolved        { name: 'James Sanders',
+silly resolved          email: 'jimmyjazz14@gmail.com',
+silly resolved          url: 'http://james-sanders.com/' },
+silly resolved        { name: 'Reid Burke',
+silly resolved          email: 'me@reidburke.com',
+silly resolved          url: 'http://reidburke.com/' },
+silly resolved        { name: 'Arlo Breault',
+silly resolved          email: 'arlolra@gmail.com',
+silly resolved          url: 'http://thoughtherder.com/' },
+silly resolved        { name: 'Timo Derstappen',
+silly resolved          email: 'teemow@gmail.com',
+silly resolved          url: 'http://teemow.com' },
+silly resolved        { name: 'Bradley Meck', email: 'bradley.meck@gmail.com' },
+silly resolved        { name: 'Bart Teeuwisse',
+silly resolved          email: 'bart.teeuwisse@thecodemill.biz',
+silly resolved          url: 'http://thecodemill.biz/' },
+silly resolved        { name: 'Ben Noordhuis',
+silly resolved          email: 'info@bnoordhuis.nl',
+silly resolved          url: 'http://bnoordhuis.nl/' },
+silly resolved        { name: 'Tor Valamo',
+silly resolved          email: 'tor.valamo@gmail.com',
+silly resolved          url: 'http://www.magnimedia.no/' },
+silly resolved        { name: 'Whyme.Lyu',
+silly resolved          email: '5longluna@gmail.com',
+silly resolved          url: 'http://whyme.kuantu.com/' },
+silly resolved        { name: 'Olivier Melcher', email: 'olivier.melcher@gmail.com' },
+silly resolved        { name: 'Tomaž Muraus',
+silly resolved          email: 'kami@k5-storitve.net',
+silly resolved          url: 'http://www.tomaz-muraus.info' },
+silly resolved        { name: 'Evan Meagher',
+silly resolved          email: 'evan.meagher@gmail.com',
+silly resolved          url: 'http://evanmeagher.net/' },
+silly resolved        { name: 'Orlando Vazquez',
+silly resolved          email: 'ovazquez@gmail.com',
+silly resolved          url: 'http://2wycked.net/' },
+silly resolved        { name: 'George Miroshnykov', email: 'gmiroshnykov@lohika.com' },
+silly resolved        { name: 'Geoff Flarity',
+silly resolved          url: 'http://ca.linkedin.com/pub/geoff-flarity/a/536/43a' },
+silly resolved        { name: 'Pete Kruckenberg', email: 'pete@kruckenberg.com' },
+silly resolved        { name: 'Laurie Harper',
+silly resolved          email: 'laurie@holoweb.net',
+silly resolved          url: 'http://laurie.holoweb.net/' },
+silly resolved        { name: 'Chris Wong', email: 'chris@chriswongstudio.com' },
+silly resolved        { name: 'Max Goodman',
+silly resolved          email: 'c@chromacode.com',
+silly resolved          url: 'http://chromacode.com/' },
+silly resolved        { name: 'Scott Bronson', email: 'brons_github@rinspin.com' },
+silly resolved        { name: 'Federico Romero', email: 'federomero@gmail.com' },
+silly resolved        { name: 'Visnu Pitiyanuvath',
+silly resolved          email: 'visnupx@gmail.com',
+silly resolved          url: 'http://visnup.com' },
+silly resolved        { name: 'Irakli Gozalishvili',
+silly resolved          email: 'rfobic@gmail.com',
+silly resolved          url: 'http://jeditoolkit.com/' },
+silly resolved        { name: 'Mark Cahill',
+silly resolved          email: 'mark@tiemonster.info',
+silly resolved          url: 'http://www.tiemonster.info/' },
+silly resolved        { name: 'Zearin', email: 'zearin@gonk.net' },
+silly resolved        { name: 'Iain Sproat', email: 'iainsproat@gmail.com' },
+silly resolved        { name: 'Trent Mick',
+silly resolved          email: 'trentm@gmail.com',
+silly resolved          url: 'http://trentm.com/' },
+silly resolved        { name: 'Felix Geisendörfer',
+silly resolved          email: 'felix@debuggable.com',
+silly resolved          url: 'http://www.debuggable.com/' },
+silly resolved        { name: 'Conny Brunnkvist',
+silly resolved          email: 'cbrunnkvist@gmail.com',
+silly resolved          url: 'http://twitter.com/connyb' },
+silly resolved        { name: 'Will Elwood',
+silly resolved          email: 'w.elwood08@gmail.com',
+silly resolved          url: 'https://github.com/welwood08' },
+silly resolved        { name: 'Oleg Efimov',
+silly resolved          email: 'efimovov@gmail.com',
+silly resolved          url: 'http://sannis.ru' },
+silly resolved        { name: 'Martin Cooper', email: 'mfncooper@gmail.com' },
+silly resolved        { name: 'Jameson Little', email: 't.jameson.little@gmail.com' },
+silly resolved        { name: 'cspotcode', email: 'cspotcode@gmail.com' },
+silly resolved        { name: 'Maciej Małecki',
+silly resolved          email: 'maciej.malecki@notimplemented.org' },
+silly resolved        { name: 'Stephen Sugden', email: 'glurgle@gmail.com' },
+silly resolved        { name: 'Gautham Pai', email: 'buzypi@gmail.com' },
+silly resolved        { name: 'David Trejo', email: 'david.daniel.trejo@gmail.com' },
+silly resolved        { name: 'Paul Vorbach', email: 'paul@vorb.de' },
+silly resolved        { name: 'George Ornbo', email: 'george@shapeshed.com' },
+silly resolved        { name: 'Tim Oxley', email: 'secoif@gmail.com' },
+silly resolved        { name: 'Tyler Green', email: 'tyler.green2@gmail.com' },
+silly resolved        { name: 'atomizer', email: 'danila.gerasimov@gmail.com' },
+silly resolved        { name: 'Rod Vagg', email: 'rod@vagg.org' },
+silly resolved        { name: 'Christian Howe', email: 'coderarity@gmail.com' },
+silly resolved        { name: 'Andrew Lunny', email: 'alunny@gmail.com' },
+silly resolved        { name: 'Henrik Hodne', email: 'dvyjones@binaryhex.com' },
+silly resolved        { name: 'Adam Blackburn', email: 'regality@gmail.com' },
+silly resolved        { name: 'Kris Windham', email: 'kriswindham@gmail.com' },
+silly resolved        { name: 'Jens Grunert', email: 'jens.grunert@gmail.com' },
+silly resolved        { name: 'Joost-Wim Boekesteijn',
+silly resolved          email: 'joost-wim@boekesteijn.nl' },
+silly resolved        { name: 'Dalmais Maxence', email: 'github@maxired.fr' },
+silly resolved        { name: 'Marcus Ekwall', email: 'marcus.ekwall@gmail.com' },
+silly resolved        { name: 'Aaron Stacy', email: 'aaron.r.stacy@gmail.com' },
+silly resolved        { name: 'Phillip Howell', email: 'phowell@cothm.org' },
+silly resolved        { name: 'Domenic Denicola',
+silly resolved          email: 'domenic@domenicdenicola.com' },
+silly resolved        { name: 'James Halliday', email: 'mail@substack.net' },
+silly resolved        { name: 'Jeremy Cantrell', email: 'jmcantrell@gmail.com' },
+silly resolved        { name: 'Ribettes', email: 'patlogan29@gmail.com' },
+silly resolved        { name: 'Einar Otto Stangvik', email: 'einaros@gmail.com' },
+silly resolved        { name: 'Don Park', email: 'donpark@docuverse.com' },
+silly resolved        { name: 'Kei Son', email: 'heyacct@gmail.com' },
+silly resolved        { name: 'Nicolas Morel', email: 'marsup@gmail.com' },
+silly resolved        { name: 'Mark Dube', email: 'markisdee@gmail.com' },
+silly resolved        { name: 'Nathan Rajlich', email: 'nathan@tootallnate.net' },
+silly resolved        { name: 'Maxim Bogushevich', email: 'boga1@mail.ru' },
+silly resolved        { name: 'Justin Beckwith', email: 'justbe@microsoft.com' },
+silly resolved        { name: 'Meaglin', email: 'Meaglin.wasabi@gmail.com' },
+silly resolved        { name: 'Ben Evans', email: 'ben@bensbit.co.uk' },
+silly resolved        { name: 'Nathan Zadoks', email: 'nathan@nathan7.eu' },
+silly resolved        { name: 'Brian White', email: 'mscdex@gmail.com' },
+silly resolved        { name: 'Jed Schmidt', email: 'tr@nslator.jp' },
+silly resolved        { name: 'Ian Livingstone', email: 'ianl@cs.dal.ca' },
+silly resolved        { name: 'Patrick Pfeiffer', email: 'patrick@buzzle.at' },
+silly resolved        { name: 'Paul Miller', email: 'paul@paulmillr.com' },
+silly resolved        { name: 'seebees', email: 'seebees@gmail.com' },
+silly resolved        { name: 'Carl Lange', email: 'carl@flax.ie' },
+silly resolved        { name: 'Jan Lehnardt', email: 'jan@apache.org' } ],
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.10',
+silly resolved     _nodeVersion: 'v0.6.13',
+silly resolved     _defaultsLoaded: true,
+silly resolved     man: 
+silly resolved      [ 'man/man1/adduser.1',
+silly resolved        'man/man1/author.1',
+silly resolved        'man/man1/bin.1',
+silly resolved        'man/man1/bugs.1',
+silly resolved        'man/man1/build.1',
+silly resolved        'man/man1/bundle.1',
+silly resolved        'man/man1/cache.1',
+silly resolved        'man/man1/changelog.1',
+silly resolved        'man/man1/coding-style.1',
+silly resolved        'man/man1/completion.1',
+silly resolved        'man/man1/config.1',
+silly resolved        'man/man1/dedupe.1',
+silly resolved        'man/man1/deprecate.1',
+silly resolved        'man/man1/developers.1',
+silly resolved        'man/man1/disputes.1',
+silly resolved        'man/man1/docs.1',
+silly resolved        'man/man1/edit.1',
+silly resolved        'man/man1/explore.1',
+silly resolved        'man/man1/faq.1',
+silly resolved        'man/man1/find.1',
+silly resolved        'man/man1/folders.1',
+silly resolved        'man/man1/get.1',
+silly resolved        'man/man1/global.1',
+silly resolved        'man/man1/help-search.1',
+silly resolved        'man/man1/help.1',
+silly resolved        'man/man1/home.1',
+silly resolved        'man/man1/index.1',
+silly resolved        'man/man1/init.1',
+silly resolved        'man/man1/install.1',
+silly resolved        'man/man1/json.1',
+silly resolved        'man/man1/link.1',
+silly resolved        'man/man1/list.1',
+silly resolved        'man/man1/ln.1',
+silly resolved        'man/man1/ls.1',
+silly resolved        'man/man1/npm.1',
+silly resolved        'man/man1/outdated.1',
+silly resolved        'man/man1/owner.1',
+silly resolved        'man/man1/pack.1',
+silly resolved        'man/man1/prefix.1',
+silly resolved        'man/man1/prune.1',
+silly resolved        'man/man1/publish.1',
+silly resolved        'man/man1/README.1',
+silly resolved        'man/man1/rebuild.1',
+silly resolved        'man/man1/registry.1',
+silly resolved        'man/man1/removing-npm.1',
+silly resolved        'man/man1/restart.1',
+silly resolved        'man/man1/rm.1',
+silly resolved        'man/man1/root.1',
+silly resolved        'man/man1/run-script.1',
+silly resolved        'man/man1/scripts.1',
+silly resolved        'man/man1/search.1',
+silly resolved        'man/man1/semver.1',
+silly resolved        'man/man1/set.1',
+silly resolved        'man/man1/shrinkwrap.1',
+silly resolved        'man/man1/star.1',
+silly resolved        'man/man1/stars.1',
+silly resolved        'man/man1/start.1',
+silly resolved        'man/man1/stop.1',
+silly resolved        'man/man1/submodule.1',
+silly resolved        'man/man1/tag.1',
+silly resolved        'man/man1/test.1',
+silly resolved        'man/man1/uninstall.1',
+silly resolved        'man/man1/unpublish.1',
+silly resolved        'man/man1/update.1',
+silly resolved        'man/man1/version.1',
+silly resolved        'man/man1/view.1',
+silly resolved        'man/man1/whoami.1',
+silly resolved        'man/man3/author.3',
+silly resolved        'man/man3/bin.3',
+silly resolved        'man/man3/bugs.3',
+silly resolved        'man/man3/commands.3',
+silly resolved        'man/man3/config.3',
+silly resolved        'man/man3/deprecate.3',
+silly resolved        'man/man3/docs.3',
+silly resolved        'man/man3/edit.3',
+silly resolved        'man/man3/explore.3',
+silly resolved        'man/man3/find.3',
+silly resolved        'man/man3/get.3',
+silly resolved        'man/man3/help-search.3',
+silly resolved        'man/man3/home.3',
+silly resolved        'man/man3/init.3',
+silly resolved        'man/man3/install.3',
+silly resolved        'man/man3/link.3',
+silly resolved        'man/man3/list.3',
+silly resolved        'man/man3/ln.3',
+silly resolved        'man/man3/load.3',
+silly resolved        'man/man3/ls.3',
+silly resolved        'man/man3/npm.3',
+silly resolved        'man/man3/outdated.3',
+silly resolved        'man/man3/owner.3',
+silly resolved        'man/man3/pack.3',
+silly resolved        'man/man3/prefix.3',
+silly resolved        'man/man3/prune.3',
+silly resolved        'man/man3/publish.3',
+silly resolved        'man/man3/rebuild.3',
+silly resolved        'man/man3/restart.3',
+silly resolved        'man/man3/rm.3',
+silly resolved        'man/man3/root.3',
+silly resolved        'man/man3/run-script.3',
+silly resolved        'man/man3/search.3',
+silly resolved        'man/man3/set.3',
+silly resolved        'man/man3/shrinkwrap.3',
+silly resolved        'man/man3/start.3',
+silly resolved        'man/man3/stop.3',
+silly resolved        'man/man3/submodule.3',
+silly resolved        'man/man3/tag.3',
+silly resolved        'man/man3/test.3',
+silly resolved        'man/man3/uninstall.3',
+silly resolved        'man/man3/unpublish.3',
+silly resolved        'man/man3/update.3',
+silly resolved        'man/man3/version.3',
+silly resolved        'man/man3/view.3',
+silly resolved        'man/man3/whoami.3' ],
+silly resolved     dist: { shasum: 'a8ba185df58f38e5721f241083782303683e0efa' },
+silly resolved     _from: 'npm@1.2.19' } ]
+info into /usr/local/lib npm@1.2.19
+info installOne npm@1.2.19
+verbose from cache /Users/ann/.npm/npm/1.2.19/package/package.json
+info unbuild /usr/local/lib/node_modules/npm
+verbose from cache /usr/local/lib/node_modules/npm/package.json
+info preuninstall npm@1.1.10
+info uninstall npm@1.1.10
+verbose unbuild npm@1.1.10 [ true,
+verbose unbuild npm@1.1.10   '/usr/local/lib/node_modules',
+verbose unbuild npm@1.1.10   '/usr/local/lib/node_modules' ]
+verbose binRoot [ '/usr/local/bin', { npm: './bin/npm-cli.js' } ]
+info unbuild /usr/local/lib/node_modules/npm
+verbose caching /usr/local/lib/node_modules/npm/package.json
+info preuninstall npm@1.1.10
+info uninstall npm@1.1.10
+verbose unbuild npm@1.1.10 [ true,
+verbose unbuild npm@1.1.10   '/usr/local/lib/node_modules',
+verbose unbuild npm@1.1.10   '/usr/local/lib/node_modules' ]
+verbose binRoot [ '/usr/local/bin', { npm: './bin/npm-cli.js' } ]
+ERR! error rolling back npm@1.2.19 Error: EPERM, chmod '/usr/local/bin/npm'
+ERR! Error: EPERM, chmod '/usr/local/bin/npm'
+ERR! 
+ERR! Please try running this command again as root/Administrator.
+ERR! 
+ERR! System Darwin 11.4.2
+ERR! command "node" "/usr/local/bin/npm" "update" "npm" "-g"
+ERR! cwd /Users/ann/Sites/bumpyride
+ERR! node -v v0.6.13
+ERR! npm -v 1.1.10
+ERR! path /usr/local/bin/npm
+ERR! code EPERM
+ERR! message EPERM, chmod '/usr/local/bin/npm'
+ERR! errno {}
+verbose exit [ 1, true ]

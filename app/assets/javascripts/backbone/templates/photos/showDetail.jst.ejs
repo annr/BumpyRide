@@ -1,0 +1,25 @@
+    <div class="modal hide fade photo-detail">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3><%= title %></h3>
+      </div>
+      <div class="modal-body">           
+
+        <p>
+          <img src="<%= image.medium.url %>">
+        </p>
+
+        <p>
+          <b>User:</b>
+          <%= user_id %>
+        </p>
+
+        <h3>Comments</h3>
+        <ul>
+        <% for(var i=0; i<comments.length; i++) {%>
+           <li><%= comments[i].body %></li>
+        <% } %>
+        </ul>
+        
+      </div>
+    </div>

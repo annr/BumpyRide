@@ -1,0 +1,44 @@
+-#.navbar.navbar-fixed-top
+  .navbar-inner
+    .container
+      %a.btn.btn-navbar{:type => "button", 'data-toggle' => "collapse", 'data-target' => ".nav-collapse"}
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      -#%h1 
+      = link_to 'BumpyRide', "", class: "brand"
+
+      .nav-collapse.collapse
+        %ul.nav
+          %li
+            =link_to 'Upload', '#'  
+
+#photos
+  .row
+
+:javascript
+  $(function() {
+    // Bumpyride is the app name
+    window.router = new Bumpyride.Routers.PhotosRouter({photos: #{@photos.to_json.html_safe}});
+    //window.router2 = new Bumpyride.Routers.CommentsRouter({comments: #{@comments.to_json.html_safe}});
+    Backbone.history.start();
+  });
+  $(document).ready(function() {
+    $('ul.thumbnails img').each(function() {
+      if(screen.pixelDepth != undefined && screen.pixelDepth == 32) {
+        this.src = $(this).data('retina');
+      } else {  
+        this.src = $(this).data('src');
+      }
+    });
+  });
+
+:javascript
+  $(document).on( "click", "a.route", function( e ) {
+    e.preventDefault();
+    router.navigate( $(this).attr("href"), { trigger: true } );
+  });
+
+%noscript
+  #NoScript
+    %h1 You need to enable Javascript.

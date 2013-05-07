@@ -1,0 +1,33 @@
+%p#notice= notice
+= link_to 'Home', photos_path
+\|
+= link_to 'Upload', new_photo_path
+%h1
+  = @photo.title
+%p
+  = image_tag @photo.image_url(:medium).to_s
+
+-#%p
+  %b User:
+  = @photo.user
+
+- @photo.comments.each do |comment|
+  %p 
+    = comment.body
+
+%h3 Add a comment:
+= form_for([@photo, @photo.comments.build]) do |f|
+  .field
+    = f.text_field :body
+  -#.field
+    = f.hidden_field :user_id, value: "1"
+  -#.field
+    = f.hidden_field :photo_id, value: "1"
+  .actions
+    = f.submit 'Save Comment', class: "btn btn-primary"
+
+
+= link_to 'Edit', edit_photo_path(@photo)
+\|
+-#= link_to 'Back', photos_path
+= link_to 'Home', photos_path

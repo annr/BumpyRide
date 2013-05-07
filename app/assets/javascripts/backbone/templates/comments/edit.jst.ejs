@@ -1,0 +1,20 @@
+<h1>Edit comment</h1>
+
+<form id="edit-comment" name="comment">
+  <div class="field">
+    <label for="body"> body:</label>
+    <input type="text" name="body" id="body" value="<%= body %>" >
+  </div>
+
+  <div class="field">
+    <label for="references"> references:</label>
+    <input type="text" name="references" id="references" value="<%= references %>" >
+  </div>
+
+  <div class="actions">
+    <input type="submit" value="Update Comment" />
+  </div>
+
+</form>
+
+<a href="#/index">Back</a>
